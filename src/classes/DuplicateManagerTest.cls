@@ -2,7 +2,7 @@
 public class DuplicateManagerTest {
     static testMethod void NoDuplicateRecordCheck() {
         Contact objContact = new Contact();
-        objContact.LastName  = 'test';
+        objContact.LastName  = 'test1';
         objContact.email ='test@test.com';
         Test.startTest();
             Sobject objContactRes = DuplicateManager.handle(objContact);
