@@ -5,7 +5,7 @@ public without  sharing class DuplicateManager {
    * Returns the Sobject if no duplicate exist,returns merge record if confidence level > threshold value
    * and flags the record for manual duplicate check if the confidence value > fagging threshold. 
    * @return [Sobject]
-   * @author Stian Ruud Schikora .....
+   * @author Stian Ruud Schikora
    */
     public static sObject handle(sObject obj){
         //Search for duplicates
